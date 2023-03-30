@@ -19,7 +19,7 @@ const LoadData = () => {
     // console.log(storedCart)
     for(const id in storedCart){
       const savedProducts=products.find(product=>product.id===id);
-      console.log(savedProducts)
+      // console.log(savedProducts)
       if(savedProducts){
         const quantity=storedCart[id]
         savedProducts.quantity=quantity

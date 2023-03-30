@@ -5,6 +5,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import { removeFromDb } from '../fakedb';
 const Product = (props) => {
     const {id, img, name, price, ratings, seller}=props.product
+    // console.log(id)
     const addToCart=props.addToCart
     return (
             <div className='load'>
