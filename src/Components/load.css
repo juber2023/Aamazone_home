@@ -1,0 +1,46 @@
+.load{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90%;
+    height: 700px;
+    position: relative;
+    padding: 10px;
+}
+
+.btn-cart{
+    width: 100%;
+    translate:-10px 0 ;
+    background-color: antiquewhite;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+}
+.btn-cart:hover{
+    background-color: greenyellow;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cart-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin:90px ;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 80% 20%);
+
+}
+
+.result{
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
